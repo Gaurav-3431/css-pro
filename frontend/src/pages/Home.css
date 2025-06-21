@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body
+{
+ width: 100%;
+ height: 100%;
+ background-color:white ;
+ overflow-x: hidden;
+}
+.header{
+    width: 70rem;
+    height: 10vh;
+    margin: 0rem 9rem;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+h2{
+    color:black;
+    font-size:1.2rem;
+    padding: 1.4rem 5rem;
+    font-family: 'Helvetica Now Display';
+}
+.duo{
+    width:24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.three{
+    width: 18rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.three a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Helvetica Now Display';
+    font-size: 1.1rem;
+}
+.btn {
+ width: 4rem;
+ height: 1rem;   
+ 
+}
+.btn i{
+ font-size: 1.2rem;
+ display: none;
+}
+
+.mid{
+    width: 70rem;
+    height:24.5rem;
+    position: relative;
+    background-color: rgba(176, 207, 223, 0.733);
+    margin:0rem 9rem;
+}
+.icon{
+    width: 6rem;
+    height: 7rem;
+    transform: rotate(50deg); 
+}
+.icon i{
+    font-size: 6rem;
+    color: #000;
+    position: absolute;
+    left:50%;
+    font-weight: lighter;
+}
+.mid h1{
+    font-size: 4rem;
+    font-family: 'Helvetica Now Display';
+    text-align: center;
+    padding-top:1.2rem; 
+    letter-spacing:0.1rem; 
+    line-height:3.6rem;
+}
+span{
+    font-size:1.6rem;
+    font-family: 'Helvetica Now Display';
+    color: rgb(84, 85, 84);
+    font-weight:400;
+}
+h3{
+    text-align: center;
+    margin-top: 0.8rem;
+}
+button{
+    width: 9rem;
+    height:2.3rem;
+    border-radius:0.6rem;
+    background-color: aqua;
+    margin-top:2rem;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 43%;
+}
+.privacy{
+    width: 70rem;
+    height:15rem;
+    background-color: whitesmoke;
+    margin: 0rem 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pehla{
+    width:22rem;
+    height: 15rem;
+    padding-top: 2rem;
+}
+.pehla i{
+    font-size: 3rem;
+    padding: 3rem 9rem;
+}
+.pehla h4{
+    margin-top: 0.3rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.pehla h5{
+    margin-top: 0.5rem;
+    font-size:1.2rem;
+    color: gray;
+    text-align: center;
+}
+.botm{
+    width:70rem;
+    height:8rem;
+    margin: 0rem 9rem;
+    background-color: rgb(198, 233, 238);
+}
+.botm h1{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Helvetica Now Display';
+}
+
+
+.cr{
+    width: 70rem;
+    height: 5rem;
+    background-color: white;
+}

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.header{
+    width:100%;
+    height:90px;
+    border-bottom: 0.3px solid rgb(201, 199, 199);
+}
+.three{
+    width: 100%;
+    margin-top: 45px;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+.sm{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sm h4{
+  font-size:small;
+  font-family: 'Times New Roman';
+  font-weight:700;
+  text-transform: uppercase;
+}
+.sm h4:hover{
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(77, 172, 77);
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+}
+.mid h2{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: 700;
+}
+.sml{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sml h4{
+    font-size: small;
+    text-transform: uppercase;
+  }
+  .sml h4:hover{
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(77, 172, 77);
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+}
+#swing{
+    width:100%;
+    
+}
+.conf{
+    margin-right:25%;
+    margin-left:25%;
+    margin-top:30px;
+}
+.conf h1{
+    font-family: Satoshi Variable;
+    font-size:9vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: -10px;
+
+}
+.conf h2{
+    font-family: Satoshi Variable;
+    font-size:8vw;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: uppercase;
+    letter-spacing: -10px;
+    line-height:50px;
+
+
+} 
+.vdo{
+ height:100%;
+ width:100%;
+}
+video{
+    width: 60%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: rgb(234, 196, 196);
+    border-radius: 20px;
+}
